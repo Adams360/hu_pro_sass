@@ -1,0 +1,87 @@
+// .expertise-nav {
+//     text-align: center;
+//     background-color: $color-light;
+//     padding: 5em 3em 1em;
+//     margin-bottom: 10em;
+//     .heading {@include divider($color-orange, center);}
+
+//     &__list {
+//         padding-top: 2em;
+//     }
+
+//     .btn {
+//         max-width: 30em;
+//         margin: 2em auto;
+//         padding: .4em 1em;
+//     }
+// }
+
+// // Button Styles
+// .expertise-btn {
+//     background: none;
+//     border: none;
+//     outline: none;
+//     padding: .5em;
+//     margin: .7em 0;
+//     cursor: pointer;
+//     font: inherit;
+//     appearance: none;
+//     width: 100%;
+//     display: flex;
+//     flex-direction: row-reverse;
+//     justify-content: flex-end;
+//     align-items: center;
+//     border-bottom: 1.4px solid $color-blue-dark;
+    
+//    @include respond(md) {
+//         flex-direction: column-reverse;
+//         justify-content: center;
+//         border-right: 1.4px solid $color-blue-dark;
+//         padding: 1.5em;
+//         margin: 1.5em 0;
+//     }
+
+    
+//     &:hover:not(.expertise-btn--active) {
+//         color: $color-orange;        
+//         .expertise-btn__text {
+//                 transform: translateX(5px);
+//         }
+//         svg {transform: scale(1.05);}
+//     }
+
+//     &--active {
+//         color: $color-cyan;
+//         @include respond(md) {
+//             border-color: $color-cyan;
+//         }
+//         .expertise-btn__text {
+//             font-weight: 700;
+//             transform: translateX(5px);
+//     }
+//         svg {
+//             transform: scale(1.05);
+//         }
+//     }
+
+//     &__text {
+//         font-size: 1.2rem;
+//         text-transform: capitalize;
+//         color: $color-blue-dark;
+//         font: inherit;
+//         transition: transform .2s ease-in-out;
+
+//     }
+//     &__icon {
+//             margin-right: .5em;
+//         svg {
+//             width: 2.2rem;
+//             height: 2.2rem;
+//             transition: all .2s ease-in-out;
+//          @include respond(sm) {
+//                 width: 3.2rem;
+//                 height: 3.2rem;
+//             }
+//         }
+//     }
+// }
